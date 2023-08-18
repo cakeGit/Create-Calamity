@@ -1,19 +1,19 @@
 {
   "variants": {
-    "facing=north": {
-      "model": "calamity:block/plushie_outcraft"
-    },
     "facing=east": {
       "model": "calamity:block/plushie_outcraft",
-      "y": 90
+      "y": 270
     },
-    "facing=south": {
+    "facing=north": {
       "model": "calamity:block/plushie_outcraft",
       "y": 180
     },
+    "facing=south": {
+      "model": "calamity:block/plushie_outcraft"
+    },
     "facing=west": {
       "model": "calamity:block/plushie_outcraft",
-      "y": 270
+      "y": 90
     }
   }
 }

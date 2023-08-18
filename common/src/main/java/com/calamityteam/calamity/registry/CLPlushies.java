@@ -85,6 +85,8 @@ public class CLPlushies {
 			.properties(p -> p.sound(SoundType.WOOL))
 			.properties(BlockBehaviour.Properties::noOcclusion)
 			.addLayer(() -> RenderType::cutoutMipped)
+			.blockstate((ctx, prov) -> prov.horizontalBlock(ctx.getEntry(), prov.models()
+				.getExistingFile(ctx.getId()), 0))
 			.item((plushieBlock, properties) ->
 				new PlushieItem(plushieBlock,properties, textToolTip != null ? textToolTip : List.of()))
 			.build()

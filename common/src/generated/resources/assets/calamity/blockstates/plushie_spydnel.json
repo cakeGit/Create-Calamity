@@ -1,19 +1,19 @@
 {
   "variants": {
-    "facing=north": {
-      "model": "calamity:block/plushie_spydnel"
-    },
     "facing=east": {
       "model": "calamity:block/plushie_spydnel",
-      "y": 90
+      "y": 270
     },
-    "facing=south": {
+    "facing=north": {
       "model": "calamity:block/plushie_spydnel",
       "y": 180
     },
+    "facing=south": {
+      "model": "calamity:block/plushie_spydnel"
+    },
     "facing=west": {
       "model": "calamity:block/plushie_spydnel",
-      "y": 270
+      "y": 90
     }
   }
 }
